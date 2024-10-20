@@ -1,0 +1,11 @@
+venv/
+certs/
+__pycache__/
+*.pyc
+migrations/
+media/
+test-*/
+.env
+db.sqlite3
+nginx.conf
+ngrok.service
