@@ -58,4 +58,4 @@ class Message(Model):
         ordering = ["-created"]
 
     def __str__(self):
-        return f"{self.get_message_type_display()} message from {self.sender}"
+        return f"{self.get_message_format_display()} message from {self.sender}"
